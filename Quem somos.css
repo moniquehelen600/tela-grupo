@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul:#001E50;
+    --verde:#61D248;
+    --preto:#0000;
+    --branco:#ffff;
+    --cinza:#E7E7E7;
+
+
+}
+
+h1{
+    position: absolute;
+    left: -300px;
+    overflow: hidden;
+}
+
+header{
+    background-color: var(--branco);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+body{
+    background-color: var(--cinza);
+}
+.paragrafo1{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.posicionamento{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.elementos_header{
+    
+    align-items: center;
+    justify-content: space-between;   
+    display: flex;
+    background-color: var(--branco);
+    font-family: 'VW Head', sans-serif;
+    color: var(--azul);
+}  
+
+
+  header img{
+    height: 46px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.menu{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.btn_header{
+    justify-content:space-between;
+    display: flex;
+    align-items:center;
+    width: 150px;
+    
+}
+
+.btn_header a{
+    text-decoration: none;
+}
+
+h2{
+    font-family:'VW Head', sans-serif; 
+    color: var(--azul);
+}
+
+
+p{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--azul);
+    
+}
+
+
+
+.titulo_texto{ 
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    height: 550px;
+    width: 500px;
+    
+}
+
+.login{
+    border: 2px solid var(--azul);
+    border-radius: 7px;
+    padding: 2px 25px;
+}
+.Cadastro{
+    border: 2px solid var(--azul);
+    border-radius:7px ;
+    padding: 2px 25px;
+    background-color:var(--azul);
+    color: var(--branco);
+    font-family: ;
+}
+
+.titulo_missao{
+    font-family:'VW Head', sans-serif; 
+    font-size: 51px;
+} 
+
+
+
+.missao_visao{
+    font-family:'VW Head', sans-serif; 
+    font-size: 10px;
+    
+}
+
